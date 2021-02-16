@@ -3,11 +3,12 @@ var theresold = 5;
 
 for (var i = 0; i < 10; i++) 
 {
-    if (i < theresold){
-        console.log(i + " è minore di " + theresold);
-    } else {
-        console.log(i + " è maggiore di " + theresold);
-    }
+    console.log("iterazione " + i);
+    // if (i < theresold){
+    //     console.log(i + " è minore di " + theresold);
+    // } else {
+    //     console.log(i + " è maggiore di " + theresold);
+    // }
 }
 
 var array = [10, 20, 30];
